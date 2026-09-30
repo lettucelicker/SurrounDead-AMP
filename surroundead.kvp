@@ -20,7 +20,7 @@ Meta.Prerequisites=[]
 Meta.ExtraContainerPackages=[]
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=1
+Meta.ConfigVersion=2
 Meta.AppConfigId=9448acb3-5820-48d3-bda0-8ff4f75a73ab
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
@@ -36,7 +36,7 @@ App.WorkingDir=server
 
 App.LinuxCommandLineArgs=-a wine "./SurrounDead.exe"
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=-nosound -NoSplash -dx11 -windowed -ResX=640 -ResY=480 -port={{$ServerPort}}
+App.CommandLineArgs={{$PlatformArgs}} -nosound -NoSplash -dx11 -windowed -ResX=640 -ResY=480 -port={{$ServerPort}}
 
 App.UseLinuxIOREDIR=False
 
