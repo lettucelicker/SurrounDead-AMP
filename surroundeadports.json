@@ -1,0 +1,9 @@
+[
+  {
+    "Protocol": "UDP",
+    "Port": 7777,
+    "Ref": "ServerPort",
+    "Name": "Game Port",
+    "Description": "SurrounDead multiplayer game traffic"
+  }
+]
