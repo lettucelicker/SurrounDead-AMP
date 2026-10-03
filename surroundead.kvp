@@ -34,7 +34,7 @@ App.ExecutableWin=server\SurrounDead.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=server
 
-App.LinuxCommandLineArgs=-a wine "./SurrounDead.exe"
+App.LinuxCommandLineArgs=-a wine "./SurrounDead/Binaries/Win64/SurrounDead-Win64-Shipping.exe"
 App.WindowsCommandLineArgs=
 App.CommandLineArgs={{$PlatformArgs}} -nosound -NoSplash -dx11 -windowed -ResX=640 -ResY=480 -port={{$ServerPort}}
 
